@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DM";
+  src: url("./assets/fonts/DMSans_18pt-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "DM";
+  src: url("./assets/fonts/DMSans_18pt-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
