@@ -4,11 +4,22 @@
   font-family: "DM";
   src: url("./assets/fonts/DMSans_18pt-Regular.ttf") format("ttf");
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "DM";
   src: url("./assets/fonts/DMSans_18pt-Bold.ttf") format("ttf");
   font-weight: 700;
+  font-style: normal;
 }
 
+:root {
+  --pani-blue: #0f2947;
+  --pani-yellow: #fab90f;
+}
+
+body {
+  color: var(--pani-blue);
+  font-family: "DM";
+}

@@ -1,5 +1,6 @@
 export type Carte = {
     collection: string,
+    team: string,
     serial: number,
     description: string
 }
