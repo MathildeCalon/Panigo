@@ -15,11 +15,13 @@
 }
 
 :root {
-  --pani-blue: #0f2947;
-  --pani-yellow: #fab90f;
+  --pani-dark: #341f97;
+  --pani-clear: #ff9ff3;
+  --pani-bg: #fffbff;
 }
 
 body {
-  color: var(--pani-blue);
+  color: var(--pani-dark);
   font-family: "DM";
+  background-color: var(--pani-bg);
 }

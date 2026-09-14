@@ -1,5 +1,4 @@
 import './App.css'
-import Card from './components/Card'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -85,8 +84,9 @@ function App() {
     <>
       <Header user={userConnected} />
 
-      <Cards cards={cards} />
-
+      <main className='overflow-y-auto'>
+        <Cards cards={cards} />
+      </main>
       <Footer />
     </>
   )

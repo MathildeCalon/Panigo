@@ -4,7 +4,7 @@ import Logo from "./util_components/Logo"
 export default function Header({ user }: { user: Account }) {
 
     return (
-        <div className="flex p-2 justify-between bg-[var(--pani-yellow)]">
+        <div className="flex p-2 items-center justify-between bg-[var(--pani-clear)]">
             <div className="pl-2">
                 <img src="/panigo_logo.png" alt="Logo Panigo" className="w-20 h-20 rounded-full" />
             </div>
