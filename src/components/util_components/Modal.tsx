@@ -1,5 +1,11 @@
-import type { ModalProps } from "../../utils/types";
+import type { ModalInfo } from "../../utils/types";
 import Button from "./Button";
+
+
+interface ModalProps {
+    info: ModalInfo
+}
+
 
 export default function Modal({ info }: ModalProps) {
 
