@@ -1,8 +1,10 @@
+import type { JSX } from "react/jsx-runtime"
+
 export type Carte = {
     collection: string,
     team: string,
     serial: number,
-    description: string,
+    playerName: string,
     count: number,
 }
 
@@ -18,7 +20,8 @@ export type Account = {
 
 export type ModalInfo = {
     title: string,
-    content: string,
+    content: JSX.Element,
+    validateName: string,
     onValidate?: () => void
     onClose?: () => void
 }
@@ -41,4 +44,10 @@ export type Exchange = {
     ingoingCard: number,
     date?: Date,
     otherAccount: Account
+}
+
+export type CardInfo = {
+    card: Carte,
+    deleteFn: () => void,
+    double: boolean
 }

@@ -25,3 +25,9 @@ body {
   font-family: "DM";
   background-color: var(--pani-bg);
 }
+
+input {
+  border: solid 1px var(--pani-clear);
+  border-radius: 0.25rem;
+  margin-bottom: 2px;
+}

@@ -56,7 +56,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U7",
     serial: 647,
-    description: "Adèle Delval-Calon",
+    playerName: "Adèle Delval-Calon",
     count: 1
   }
 
@@ -64,7 +64,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U7",
     serial: 648,
-    description: "Emma Danni",
+    playerName: "Emma Danni",
     count: 1,
   }
 
@@ -72,7 +72,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U7",
     serial: 684,
-    description: "Adèle Charlet",
+    playerName: "Adèle Charlet",
     count: 2
   }
 
@@ -80,7 +80,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 534,
-    description: "Romy Lefevre",
+    playerName: "Romy Lefevre",
     count: 1
   }
 
@@ -88,7 +88,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 157,
-    description: "Marion Wozniak",
+    playerName: "Marion Wozniak",
     count: 2
   }
 
@@ -96,21 +96,21 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 984,
-    description: "Elise Truc",
+    playerName: "Elise Truc",
     count: 1
   }
   const seventhCard: Carte = {
     collection: "AG Thumeries",
     team: "U9",
     serial: 657,
-    description: "Alice Pluta",
+    playerName: "Alice Pluta",
     count: 1
   }
   const eighthCard: Carte = {
     collection: "AG Thumeries",
     team: "U9",
     serial: 637,
-    description: "Gabriel Machin",
+    playerName: "Gabriel Machin",
     count: 1
   }
 
@@ -118,7 +118,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 637,
-    description: "Gabriel Machin",
+    playerName: "Gabriel Machin",
     count: 1
   }
 
@@ -126,7 +126,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 637,
-    description: "Gabriel Machin",
+    playerName: "Gabriel Machin",
     count: 1
   }
 
@@ -134,7 +134,7 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 637,
-    description: "Gabriel Machin",
+    playerName: "Gabriel Machin",
     count: 1
   }
 
@@ -142,17 +142,17 @@ function App() {
     collection: "AG Thumeries",
     team: "U9",
     serial: 637,
-    description: "Gabriel Machin",
+    playerName: "Gabriel Machin",
     count: 1
   }
 
   cards.push(firstCard, secondCard, thirdCard, fourthCard, fifthCard, sixthCard, seventhCard, eighthCard, card1, card2, card3, card4, card4)
-
+  wishes.push(firstCard)
   return (
     <>
       <Header user={userConnected} />
 
-      <main className='flex flex-col overflow-y-auto bottom-5 fixed top-30'>
+      <main className='flex flex-col overflow-y-auto bottom-5 fixed top-30 w-full'>
         <Cards info={cards} />
         <Wishes info={wishes}/>
         <Exchanges data={exchanges}/>
